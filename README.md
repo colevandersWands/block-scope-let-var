@@ -11,7 +11,7 @@ The example below illustrates how _var_ & _let_ variables are treated differentl
 * [Helpful Links](#helpful-links)
 * [Study Snippet](#study-snippet)
 * [Run-Time Sketches](#run-time-sketches)
-* [parsons practice](https://colevanderswands.github.io/block-scope-let-var)
+* [additional practice](https://colevanderswands.github.io/block-scope-let-var)
 
 ___
 
