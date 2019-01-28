@@ -1,25 +1,33 @@
 ## Block Scope: Let vs Var
 
-Eave very differently than _var_'s when enclosed by curly braces. 
+_Let_ variables behave very differently than _var_'s when enclosed by curly braces. _Let_ variables will be confined to the braces where they were created: _block scoping_.
 
-_Let_ variables will be confined to the braces where they were created: _block scoping_.
-
-_Var_ variables are hoisted outside of any curly braces they are in (except functions, this is a topic for later). 
+_Var_ variables are hoisted outside of any curly braces (except functions, this is a topic for later -> Lexical Scope). 
 
 The example below illustrates how _var_ & _let_ variables are treated differently by JavaScript whenever a new block is created.
 
 ### Index
 * [Learning Objective](#learning-objective)
-* [Study Snippet](#study-snippet)
 * [Helpful Links](#helpful-links)
-* [Interactive Practice](https://elewa-academy.github.io/block-scope-let-vs-var)
+* [Study Snippet](#study-snippet)
 * [Run-Time Sketches](#run-time-sketches)
+* [parsons practice](https://colevanderswands.github.io/block-scope-let-var)
 
 ___
 
 ## Learning Objective
 
 A set of opening and closing curly braces create a new _block scope_.  __let__ variables are stuck inside of the block scope where they were declared, __var__ variables are not.
+
+[TOP](#index)
+
+___
+
+## Helpful Links
+
+__Let__'s temporal dead zone. (from step 3):
+* [2ality](https://dmitripavlutin.com/variables-lifecycle-and-why-let-is-not-hoisted/)
+* [FreeCodeCamp](https://medium.freecodecamp.org/what-is-variable-hoisting-differentiating-between-var-let-and-const-in-es6-f1a70bb43d)
 
 [TOP](#index)
 
@@ -41,17 +49,10 @@ inner_var = 'modified globally';
 console.log('final state');
 ```
 
-[TOP](#index)
-
-___
-
-## Helpful Links
-
-__Let__'s temporal dead zone. (from step 3):
-* [2ality](https://dmitripavlutin.com/variables-lifecycle-and-why-let-is-not-hoisted/)
-* [FreeCodeCamp](https://medium.freecodecamp.org/what-is-variable-hoisting-differentiating-between-var-let-and-const-in-es6-f1a70bb43d)
+[PyTut link](https://goo.gl/TMzZRs)
 
 [TOP](#index)
+
 
 ___
 
